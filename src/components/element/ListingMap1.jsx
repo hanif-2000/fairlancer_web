@@ -190,7 +190,7 @@ export default function ListingMap1() {
   const [getLocation, setLocation] = useState(null);
 
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM",
+    // googleMapsApiKey: "add api key",
   });
   const center = useMemo(() => ({ lat: 23.685, lng: 90.3563 }), []);
 
